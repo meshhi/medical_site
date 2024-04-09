@@ -1,0 +1,29 @@
+.header {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header_menu__list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .header_menu__item {
+                height: 90px;
+                border-inline: 1px solid #C4C4C4;
+                padding-inline: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+    }
+}
